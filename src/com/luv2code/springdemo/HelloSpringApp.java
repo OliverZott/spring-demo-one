@@ -2,6 +2,13 @@ package com.luv2code.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * Example for IoC via xml-legacy-method
+ *
+ * - Objects are managed and created elsewhere!
+ * - DI is happening
+ *
+ */
 public class HelloSpringApp {
 
     public static void main(String[] args) {
@@ -18,6 +25,9 @@ public class HelloSpringApp {
         https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5672766#overview
          */
         System.out.println("HelloSpringApp talking here: " + theCoach.getDailyWorkout());
+
+        // call another method (including DI)
+        System.out.println(theCoach.getDailyFortune());
 
         // close the context
         context.close();

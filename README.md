@@ -1,8 +1,7 @@
 # Udemy -spring-demo-one
-https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181680#overview
- 
-### Spring Container
-https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181680?start=30#overview
+
+## Spring Container
+[Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181680?start=30#overview)
 
 - Primary Functions 
   - Create and manage objects (Inversion of Control)
@@ -19,15 +18,30 @@ https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181680?sta
   - Retrieve Beans from Spring Container         
  
 
-1. **Inversion of Control:**   
-https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181682#overview
+### Inversion of Control
+[Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181682#overview)  
+[Difference: IoC - DI](https://stackoverflow.com/questions/6550700/inversion-of-control-vs-dependency-injection)
+### Dependency Injection
+[Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5205952#overview)
 
+- Constructor Injection  
+  - Define dependency interface class
+  - Create a constructor for injection
+  - Configure DI in Spring config file
+- Setter Injection
+- Autowiring 
+
+
+ 
  
 # Remarks
 **Beans** 
 ... Java Object created by Spring
 https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-introduction 
 https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/8845630#overview
+
+**'this'**  
+https://stackoverflow.com/questions/2411270/when-should-i-use-this-in-a-class
 
 # Java-Remarks
 **.class** ... = getClass()   

@@ -6,4 +6,9 @@ public class MtbCoach implements Coach {
     public String getDailyWorkout() {
         return "MTB-Guide speaking, you should train bunny hop ;)";
     }
+
+    @Override
+    public String getDailyFortune() {
+        return null;
+    }
 }
