@@ -1,5 +1,14 @@
 # Udemy -spring-demo-one
 
+## Content
+
+- IoC (xml)
+- DI (xml)
+  - Constructor injection
+  - Setter injection
+  - Inject Literals
+
+
 ## Spring Container
 [Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181680?start=30#overview)
 
@@ -21,6 +30,8 @@
 ### Inversion of Control
 [Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5181682#overview)  
 [Difference: IoC - DI](https://stackoverflow.com/questions/6550700/inversion-of-control-vs-dependency-injection)
+
+
 ### Dependency Injection
 [Course Link](https://www.udemy.com/course/spring-hibernate-tutorial/learn/lecture/5205952#overview)
 
@@ -28,10 +39,16 @@
   - Define dependency interface class
   - Create a constructor for injection
   - Configure DI in Spring config file
-- Setter Injection
+- Setter Injection  
+  - Create Setter in class
+  - Configure DI in Spring config file
 - Autowiring 
 
 
+### Inject Literal Values
+
+
+ 
  
  
 # Remarks
