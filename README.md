@@ -46,7 +46,11 @@
 
 
 ### Inject Literal Values
-
+- hard-coded in config.xml: `property name=... value=`
+- modular in property-file   
+  - create property file
+  - load property file in Spring config
+  - reference values from property file 
 
  
  
