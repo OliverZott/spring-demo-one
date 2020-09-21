@@ -8,7 +8,11 @@ public class TrackCoach implements Coach {
 
 	}
 
+	/*
+	Beans are just passed to constructor BUT NOT instantiated in our class!!
+	 */
 	public TrackCoach(FortuneService fortuneService) {
+		System.out.println("Track coach constructor speaking");
 		this.fortuneService = fortuneService;
 	}
 

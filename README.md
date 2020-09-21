@@ -67,3 +67,6 @@ https://stackoverflow.com/questions/2411270/when-should-i-use-this-in-a-class
 # Java-Remarks
 **.class** ... = getClass()   
 https://stackoverflow.com/questions/15078935/what-does-class-mean-in-java
+
+**Array vs ArrayList**   
+https://www.geeksforgeeks.org/array-vs-arraylist-in-java/
