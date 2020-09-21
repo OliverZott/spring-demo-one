@@ -11,7 +11,7 @@ public class SetterDemoApp {
                 new ClassPathXmlApplicationContext("applicationContext.xml");
 
         // retrieve bean from spring context
-        Coach theCoach = context.getBean("myCricketCoach", Coach.class);
+        CricketCoach theCoach = context.getBean("myCricketCoach", CricketCoach.class);
 
         // cal methods on the bean
         /* Usage of interface for type-safety
@@ -21,6 +21,9 @@ public class SetterDemoApp {
 
         // call another method (including DI)
         System.out.println("SetterDemoApp here: " + theCoach.getDailyFortune());
+
+        // call new literal-injection methods
+        System.out.println("SetterDemoApp here: " + theCoach.getTeam());
 
         // close the context
         context.close();
