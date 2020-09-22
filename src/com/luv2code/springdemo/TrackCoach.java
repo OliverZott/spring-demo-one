@@ -26,4 +26,14 @@ public class TrackCoach implements Coach {
 		return "Track Coach speaking: " + fortuneService.getFortune();
 	}
 
+	// add init method
+	public void doStartupStuff() {
+		System.out.println("Tracking Coach: Init-Method");
+	}
+
+	// add destroy method
+	public void doDestroyStuff() {
+		System.out.println("Tracking Coach: Destroy-Method");
+	}
+
 }

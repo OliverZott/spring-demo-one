@@ -1,16 +1,20 @@
 # Udemy -spring-demo-one
 
 ## Content
+- Configuration:  
+    - IoC 
+    - DI 
+        - Constructor injection
+        - Setter injection
+        - Inject Literals
+    - Bean scope / lifecycle  
+    (video 43)  
+        - default scope: **Singleton** (Prototype, Session,...)
+        - init / destroy methods
+    - XML
+    - Annotations
 
-- IoC (xml)
-- DI (xml)
-  - Constructor injection
-  - Setter injection
-  - Inject Literals
-- Bean scope / lifecycle  
-(video 43)  
-  - default scope: **Singleton** (Prototype, Session,...)
-  - init / destroy methods
+  
 
 
 ## Spring Container
