@@ -7,6 +7,10 @@
   - Constructor injection
   - Setter injection
   - Inject Literals
+- Bean scope / lifecycle  
+(video 43)  
+  - default scope: **Singleton** (Prototype, Session,...)
+  - init / destroy methods
 
 
 ## Spring Container
